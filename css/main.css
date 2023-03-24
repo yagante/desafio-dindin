@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+body {
+width: 100%;
+height: 100%;
+margin: 0 auto;
+font-family: 'Ubuntu', sans-serif;
+}
+
+
+.menu-principal {
+    width: 100%;
+    background-color: #2E948A;
+}
+
+.menu-principal .container {
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo {
+    padding: 16px;
+}
+
+.menu ul li {
+    display: inline-block;
+    color: #8b8b8b;
+    padding: 10px;
+
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.banner .container {
+ display: flex;
+ padding: 100px;
+ align-items: flex-start;
+ justify-content: center;
+
+}
+
+.banner .container img {
+    width: 500px;
+    margin-top: 50px;
+}
+
+.banner .container h1 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 69px;
+    color: #FF4081;
+    width: 450px;
+}
+
+.banner .container p {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 31px;
+    color: #555555;
+    width: 350px;
+}
+
+.banner .container a {
+    border: 3px solid #FF4081;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: #FF4081;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 27px;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.cursos {
+    background-color: #F6F6F6;
+}
+
+.cursos .container img {
+    height: 200px;
+}
+
+.cursos .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 20px;
+}
+
+.cursos .container article {
+    width: 300px;
+    text-align: center;
+    padding: 10px 30px;
+}
+
+.cursos .container h2 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 69px;
+    color: #FF4081;
+}
+
+.cursos .container a {
+    border: 3px solid #FF4081;
+    padding: 10px 30px;
+    border-radius: 62px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 17px;
+    display: inline-block;
+    margin-top: 50px;
+    background: #FF4081;
+}
+
+.depoimentos h2 {
+    color: #009688;
+    text-transform: uppercase;
+}
+
+.depoimentos .depo article {
+    width: 500px; /* largura */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.depoimentos .depo .text {
+    padding: 15px; /* espaçamento interno */
+}
+
+.depoimentos .depo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.depoimentos .container {
+    padding: 100px;
+}
+
+.blog .posts h3 {
+    color: #009688;
+    margin-bottom: 0px;
+}
+
+.blog .container {
+    padding: 100px 100px;
+}
+
+.blog p {
+    margin: 0px;
+}
+
+.blog h2 {
+    color: #009688;
+    text-transform: uppercase;
+}
+
+
+.blog .container .posts {
+    display: flex;
+    
+}
+
+.blog .posts article {
+    padding: 30px;
+    width: 500px;
+}
+
+.blog {
+    background-color: #F6F6F6;
+}
+
+.blog .container a {
+    border: 3px solid #FF4081;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: #FF4081;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    display: inline-block; /* link sempre tem q colocar essa porra de inline-block */
+    margin-top: 50px;
+}
+
+.blog .link {
+    text-align: center;
+}
+
+.blog .thumb {
+    height: 150px;
+    width: 100%;
+    background-color: black;
+}
+
+footer {
+    background-color: #009688;
+}
+
+footer .container {
+    display: flex;  
+    padding: 50px; 
+    justify-content: space-between;
+}
+
+footer nav ul li {
+    display: block;
+}
+
+footer .menu-footer ul li a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 5px;
+}
+
+footer .links ul li a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 15px;
+    width: 200px;
+    border: 3px solid white;
+    border-radius: 30px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.cursos-banner .container {
+    display: flex;
+    flex-direction: column; /* um ítem debaixo do outro c isso */ 
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.cursos-banner .text {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    color: #FF4081;
+}
+
+.cursos-banner h1 {
+    margin-bottom: 0px;
+}
+
+.cursos-banner .text p {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400; /* grossura da letra */
+    font-size: 20px; /* tamanho da letra */
+    color: #555555;
+    margin-top: 0px;
+}
+
+.cursos-lista .container {
+    display: flex;
+    flex-direction: column; /* um ítem debaixo do outro c isso */ 
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.cursos-lista article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 30px;
+    width: 100%;
+} 
+
+.cursos-lista .container img { /* as 3 imagens das vantagens */
+    height: 300px;
+    padding: 50px;
+}
+
+
+.cursos-lista .container p { /* o lorem ipsum descritivo de cada vantagem */
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400; /* grossura da letra */
+    font-size: 15px; /* tamanho da letra */
+    color: #555555;
+}
+
+.cursos-lista .container a { /* botões 'começar agora' */
+    border: 3px solid #2E948A;
+    padding: 10px 30px;
+    border-radius: 62px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 17px;
+    display: inline-block; /* pq é link */
+    margin-top: 20px;
+    background: #2E948A;
+}
+
+.cursos-lista .container h2 { /* os títulos das vantagens */
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 69px;
+    color: #FF4081;
+}
+
+.cursos-lista .container hr {
+    background-color: #C4C4C4;
+    height: 1px;
+    width: 100%;
+}
+
+.banner-curso .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.banner-curso h1 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 69px;
+    color: #FF4081;
+    width: 450px;
+}
+
+.banner-curso p {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400; /* grossura da letra */
+    font-size: 20px; /* tamanho da letra */
+    color: #555555;
+    margin-top: 0px;
+    width: 450px;
+}
+
+.lista-aulas {
+    background-color: #E5E5E5;
+}
+
+.lista-aulas iframe {
+    width: 450px;
+    height: 250px;
+}
+
+.lista-aulas .container {
+    display: flex;
+    flex-direction: column; /* um ítem debaixo do outro c isso */ 
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.lista-aulas article {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 50px 30px;
+    width: 100%;
+} 
+
+.lista-aulas .container img { /* as 3 imagens das vantagens */
+    height: 300px;
+    padding: 50px;
+}
+
+
+.lista-aulas .text {
+    width: 400px;
+    margin-left: 90px;
+}
+
+.lista-aulas .container p { /* o lorem ipsum descritivo de cada vantagem */
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400; /* grossura da letra */
+    font-size: 15px; /* tamanho da letra */
+    color: #555555;
+}
+
+.lista-aulas .container a { /* botões 'começar agora' */
+    border: 3px solid #2E948A;
+    padding: 10px 30px;
+    border-radius: 62px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 17px;
+    display: inline-block; /* pq é link */
+    margin-top: 20px;
+    background: #2E948A;
+}
+
+.lista-aulas .container h2 { /* os títulos das vantagens */
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: #FF4081;
+    margin-top: 0;
+}
+
+.lista-aulas .container hr {
+    background-color: #C4C4C4;
+    height: 1px;
+    width: 100%;
+}
