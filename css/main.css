@@ -426,3 +426,72 @@ footer .links ul li a {
     height: 1px;
     width: 100%;
 }
+
+.blog-banner .container {
+    display: flex;
+    padding: 50px;
+    align-items: flex-start;
+    justify-content: center;
+   
+   }
+   
+   .blog-banner .container img {
+       width: 450px;
+       margin-top: 0px;
+       margin-bottom: 50px;
+   }
+   
+   .blog-banner .container h1 {
+       font-family: 'Ubuntu';
+       font-style: normal;
+       font-weight: 700;
+       font-size: 47px;
+       color: #2E948A;
+       width: 450px;
+       text-transform: uppercase;
+       margin-top: 100px;
+   }
+   
+   .blog-banner .container p {
+       font-family: 'Ubuntu';
+       font-style: normal;
+       font-weight: 400;
+       font-size: 20px;
+       line-height: 31px;
+       color: #555555;
+       width: 461px;
+   }
+
+   .blog-posts .thumb { /* usar essa tag ao invés de img reduz trabalho de ajuste de imgs direto no html */
+    height: 230px;
+    width: 100%;
+    background-color: black;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7vU_amvTI6wUavcuwUj4nZQG54f8hDeJ4ew&usqp=CAU);
+    background-repeat: no-repeat; /* se não fica repetindo a imagem pra preencher o espaço do thumb */
+    background-size: cover; /* q seria 100% mas não */
+}
+
+    .blog-posts .container { 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 1200px;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+
+   .blog-posts article {
+        padding: 50px;
+        width: 400px;
+   }
+
+   .blog-posts .container h2 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-size: 25px;
+    color: #FF4081;
+   }
+
+   .blog-posts .container p {
+
+   }
