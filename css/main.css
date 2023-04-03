@@ -132,14 +132,14 @@ font-family: 'Ubuntu', sans-serif;
 }
 
 .depoimentos .depo article {
-    width: 500px; /* largura */
+    width: 500px; 
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 
 .depoimentos .depo .text {
-    padding: 15px; /* espaçamento interno */
+    padding: 15px; 
 }
 
 .depoimentos .depo {
@@ -193,7 +193,7 @@ font-family: 'Ubuntu', sans-serif;
     text-decoration: none;
     font-weight: 400;
     font-size: 20px;
-    display: inline-block; /* link sempre tem q colocar essa porra de inline-block */
+    display: inline-block; 
     margin-top: 50px;
 }
 
@@ -242,7 +242,7 @@ footer .links ul li a {
 
 .cursos-banner .container {
     display: flex;
-    flex-direction: column; /* um ítem debaixo do outro c isso */ 
+    flex-direction: column; 
     width: 1200px;
     margin: 0 auto;
 }
@@ -262,15 +262,15 @@ footer .links ul li a {
 .cursos-banner .text p {
     font-family: 'Ubuntu';
     font-style: normal;
-    font-weight: 400; /* grossura da letra */
-    font-size: 20px; /* tamanho da letra */
+    font-weight: 400; 
+    font-size: 20px; 
     color: #555555;
     margin-top: 0px;
 }
 
 .cursos-lista .container {
     display: flex;
-    flex-direction: column; /* um ítem debaixo do outro c isso */ 
+    flex-direction: column; 
     justify-content: center;
     align-items: center;
     width: 1200px;
@@ -285,21 +285,21 @@ footer .links ul li a {
     width: 100%;
 } 
 
-.cursos-lista .container img { /* as 3 imagens das vantagens */
+.cursos-lista .container img { 
     height: 300px;
     padding: 50px;
 }
 
 
-.cursos-lista .container p { /* o lorem ipsum descritivo de cada vantagem */
+.cursos-lista .container p { 
     font-family: 'Ubuntu';
     font-style: normal;
-    font-weight: 400; /* grossura da letra */
-    font-size: 15px; /* tamanho da letra */
+    font-weight: 400; 
+    font-size: 15px; 
     color: #555555;
 }
 
-.cursos-lista .container a { /* botões 'começar agora' */
+.cursos-lista .container a { 
     border: 3px solid #2E948A;
     padding: 10px 30px;
     border-radius: 62px;
@@ -307,12 +307,12 @@ footer .links ul li a {
     text-decoration: none;
     font-weight: 100;
     font-size: 17px;
-    display: inline-block; /* pq é link */
+    display: inline-block; 
     margin-top: 20px;
     background: #2E948A;
 }
 
-.cursos-lista .container h2 { /* os títulos das vantagens */
+.cursos-lista .container h2 { 
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 700;
@@ -347,8 +347,8 @@ footer .links ul li a {
 .banner-curso p {
     font-family: 'Ubuntu';
     font-style: normal;
-    font-weight: 400; /* grossura da letra */
-    font-size: 20px; /* tamanho da letra */
+    font-weight: 400; 
+    font-size: 20px; 
     color: #555555;
     margin-top: 0px;
     width: 450px;
@@ -365,7 +365,7 @@ footer .links ul li a {
 
 .lista-aulas .container {
     display: flex;
-    flex-direction: column; /* um ítem debaixo do outro c isso */ 
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 1200px;
@@ -380,7 +380,7 @@ footer .links ul li a {
     width: 100%;
 } 
 
-.lista-aulas .container img { /* as 3 imagens das vantagens */
+.lista-aulas .container img { 
     height: 300px;
     padding: 50px;
 }
@@ -391,15 +391,15 @@ footer .links ul li a {
     margin-left: 90px;
 }
 
-.lista-aulas .container p { /* o lorem ipsum descritivo de cada vantagem */
+.lista-aulas .container p { 
     font-family: 'Ubuntu';
     font-style: normal;
-    font-weight: 400; /* grossura da letra */
-    font-size: 15px; /* tamanho da letra */
+    font-weight: 400; 
+    font-size: 15px; 
     color: #555555;
 }
 
-.lista-aulas .container a { /* botões 'começar agora' */
+.lista-aulas .container a { 
     border: 3px solid #2E948A;
     padding: 10px 30px;
     border-radius: 62px;
@@ -407,12 +407,12 @@ footer .links ul li a {
     text-decoration: none;
     font-weight: 100;
     font-size: 17px;
-    display: inline-block; /* pq é link */
+    display: inline-block; 
     margin-top: 20px;
     background: #2E948A;
 }
 
-.lista-aulas .container h2 { /* os títulos das vantagens */
+.lista-aulas .container h2 { 
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 700;
@@ -462,13 +462,13 @@ footer .links ul li a {
        width: 461px;
    }
 
-   .blog-posts .thumb { /* usar essa tag ao invés de img reduz trabalho de ajuste de imgs direto no html */
+   .blog-posts .thumb { 
     height: 230px;
     width: 100%;
     background-color: black;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7vU_amvTI6wUavcuwUj4nZQG54f8hDeJ4ew&usqp=CAU);
-    background-repeat: no-repeat; /* se não fica repetindo a imagem pra preencher o espaço do thumb */
-    background-size: cover; /* q seria 100% mas não */
+    background-repeat: no-repeat; 
+    background-size: cover; 
 }
 
     .blog-posts .container { 
@@ -569,11 +569,11 @@ footer .links ul li a {
     color: #9D9D9D;
    }
 
-   .post-principal .thumb { /* usar essa tag ao invés de img reduz trabalho de ajuste de imgs direto no html */
+   .post-principal .thumb { 
     height: 465px;
     width: 100%;
     background-color: #C4C4C4;
-    background-size: cover; /* q seria 100% mas não */
+    background-size: cover; 
     margin: 50px 0;
 }
 
